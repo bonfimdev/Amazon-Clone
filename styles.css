@@ -1,0 +1,164 @@
+*{
+    margin:0;
+    padding:0 ;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+body{
+
+    background-color: #ccc;
+}
+
+
+/*
+ Boot CSS
+*/
+
+.center{
+
+    max-width: 1680px;
+    margin:0 auto;
+    padding:0 2%;
+}
+
+.flex{display: flex;}
+
+
+.align-flex-center{
+    justify-content: center;
+    align-items: center;
+}
+
+.align-flex-end{
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+
+
+
+
+/* FIM BOOT CSS*/
+
+header{
+    position: relative;
+    z-index: 10;
+    height: 70px;
+    background-color: #131921;
+    color: white;
+    padding: 10px 0;
+}
+
+.logo {padding:0 9px ;}
+.logo img{
+    width: 150px;
+}
+
+.input-search {
+    padding:0 10px;
+    width: 200%;
+    display: flex;
+}
+
+
+.input-search form{
+    display:flex;
+    width: 200%;
+}
+
+.input-search input[type=text]{
+    width:calc(100% - 40px);
+    height:40px;
+}
+
+.input-search button{
+    width: 40px;
+    border:0;
+    height: 40px;
+    background-color: #febd68 ;
+}
+
+.text-info-header{
+    height: 50px;
+    font-size: 12px;
+    margin: 8px 0;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+
+.text-info-header:hover{
+    border-radius: 3px;
+    outline: 2px solid white ;
+}
+
+
+.text-info-header p{
+    white-space: nowrap;
+}
+
+
+/* Banner Principal */
+
+
+
+.vitrine{
+    min-height: 600px;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    
+    justify-content: space-around;
+
+}
+
+
+.box-vitrine {
+    position:relative;
+    top: 15px;
+    width: 22%;
+    background-color: white;
+    padding: 8px 12px;
+}
+
+.box-vitrine a {
+    color: #069;
+    font-size: 13px;
+}
+
+.box-vitrine img{
+    width:100%;
+}
+
+
+/* Lógica para o carrosel */
+
+.vitrine-galeria{
+    position: absolute;
+    left:0;
+    top:50px;
+    width:100%;
+    overflow-x: hidden;
+
+}
+
+
+.vitrine-galeria img{
+    position:relative;
+}
+
+
+.vitrine-galeria-wraper{
+    display: flex;
+
+}
+
+
+
+
+
+
+
+
